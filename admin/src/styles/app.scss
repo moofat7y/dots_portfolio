@@ -1,0 +1,133 @@
+$primary: #103457;
+$secondary: #f2f2f2;
+$danger: #b92026;
+$dark: rgba(74, 86, 95, 0.238);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+.logo {
+  width: calc(3rem + 5vw);
+}
+.text-grad {
+  background: linear-gradient(120deg, $primary 40.69%, $danger 70.19%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+main {
+  padding-top: 110px;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  main {
+    padding-top: 30px !important;
+  }
+  section {
+    padding-top: 40px !important;
+    padding-bottom: 15px !important;
+  }
+}
+
+.popular {
+  .images-list {
+    .thumbnail-inner {
+      aspect-ratio: 4/2.6;
+
+      &.loading {
+        opacity: 0.5;
+        cursor: not-allowed;
+        .delete {
+          display: none !important;
+        }
+      }
+      .delete,
+      .edit {
+        transition: 0.3s ease-in-out;
+        opacity: 0;
+      }
+      &:hover {
+        .delete,
+        .edit {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.uploader {
+  .uploader-btn {
+    background-color: #fafafa;
+    border: 1px dashed #d9d9d9;
+    cursor: pointer;
+    aspect-ratio: 4/2.6;
+
+    transition: border-color 0.3s;
+    &:hover {
+      border-color: #1677ff;
+    }
+  }
+
+  .thumbnail {
+    .thumbnail-inner {
+      aspect-ratio: 4/2.6;
+
+      &.loading {
+        opacity: 0.5;
+        cursor: not-allowed;
+        .delete {
+          display: none !important;
+        }
+      }
+    }
+  }
+}
+
+.auth {
+  min-height: 100vh;
+  .left {
+    .signup,
+    .signin,
+    .forgot-password {
+      width: 55%;
+      min-width: 320px;
+      margin: 0px auto;
+    }
+  }
+  .right {
+    position: relative;
+    &::before {
+      content: "";
+      top: 50%;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      background-color: #f2f2f23b;
+      backdrop-filter: blur(6px);
+      z-index: 8;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .auth {
+    .right {
+      height: 20vh !important;
+      background-color: $secondary;
+    }
+    .left {
+      min-height: 80vh !important;
+      height: min-content !important;
+    }
+  }
+}
