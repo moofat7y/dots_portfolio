@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.44 156.63">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .2em;
+      }
+
+      .cls-2 {
+        letter-spacing: .22em;
+      }
+
+      .cls-3 {
+        fill: #971c1f;
+      }
+
+      .cls-4 {
+        letter-spacing: .21em;
+      }
+
+      .cls-5 {
+        letter-spacing: .2em;
+      }
+
+      .cls-6 {
+        letter-spacing: .2em;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #103457;
+      }
+
+      .cls-9 {
+        fill: #b92026;
+      }
+
+      .cls-10 {
+        letter-spacing: .19em;
+      }
+
+      .cls-11 {
+        letter-spacing: .19em;
+      }
+
+      .cls-8 {
+        font-family: MADETOMMY, MADETOMMY;
+        font-size: 16.69px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <g>
+          <circle class="cls-3" cx="156.26" cy="93.5" r="44.5"/>
+          <circle class="cls-9" cx="155.26" cy="90.5" r="44.5"/>
+        </g>
+        <path class="cls-7" d="m105.76,135h-30V0h30v135Z"/>
+        <rect class="cls-7" x="204.76" width="30" height="135"/>
+        <rect class="cls-7" x="188.76" y="0" width="62" height="30"/>
+        <path class="cls-7" d="m45.48,43.73C20.36,43.73,0,64.09,0,89.2s20.36,45.48,45.48,45.48,45.48-20.36,45.48-45.48-20.36-45.48-45.48-45.48Zm0,64.7c-10.62,0-19.23-8.61-19.23-19.23s8.61-19.23,19.23-19.23,19.23,8.61,19.23,19.23-8.61,19.23-19.23,19.23Z"/>
+        <g>
+          <path class="cls-3" d="m297.44,61c-11.56-11.56-30.32-11.56-41.88,0-11.56,11.56-11.56,30.32,0,41.88"/>
+          <g>
+            <path class="cls-3" d="m239.12,125.49c11.39,11.58,30.02,11.73,41.6.34,11.58-11.39,11.73-30.02.34-41.6"/>
+            <path class="cls-9" d="m237.44,124.07c11.56,11.56,30.32,11.56,41.88,0,11.56-11.56,11.56-30.32,0-41.88"/>
+          </g>
+          <path class="cls-9" d="m296.27,59.79c-11.56-11.56-30.32-11.56-41.88,0-11.56,11.56-11.56,30.32,0,41.88"/>
+        </g>
+      </g>
+      <text class="cls-8" transform="translate(106.03 152.46)"><tspan class="cls-4" x="0" y="0">M</tspan><tspan class="cls-6" x="16.86" y="0">a</tspan><tspan class="cls-10" x="28.25" y="0">r</tspan><tspan class="cls-5" x="36.88" y="0">ekting </tspan><tspan class="cls-11" x="108.01" y="0">A</tspan><tspan class="cls-6" x="121.37" y="0">gen</tspan><tspan class="cls-2" x="158.34" y="0">c</tspan><tspan class="cls-1" x="169.46" y="0">y</tspan></text>
+    </g>
+  </g>
+</svg>
