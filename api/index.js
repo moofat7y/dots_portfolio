@@ -43,6 +43,6 @@ app.use((error, req, res, next) => {
   res.status(status).json({ message: errMessage, stack });
 });
 
-app.listen(PORT, () => {
+app.listen(8080, () => {
   console.log(`Server is runing on port ${PORT}`);
 });
