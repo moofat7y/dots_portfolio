@@ -7,6 +7,7 @@ const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const Contact = lazy(() => import("./pages/Contact"));
 const Portfolio = lazy(() => import("./pages/Portfolio"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -19,7 +20,6 @@ import { getAllSocialImages } from "./store/features/social/socialSlice";
 import { getAllClientImages } from "./store/features/top-client/clientSlice";
 import WhatsApp from "./components/WhatsApp";
 import { getAllBrandImages } from "./store/features/brand/brandSlice";
-import NotFound from "./pages/NotFound";
 
 function App() {
   const dispatch = useDispatch();

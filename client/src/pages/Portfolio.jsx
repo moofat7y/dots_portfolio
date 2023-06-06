@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Popular from "../components/portfolio/Popular";
 import { useLocation } from "react-router-dom";
 import Design from "../components/portfolio/Design";
 import SocialMedia from "../components/portfolio/SocialMedia";
