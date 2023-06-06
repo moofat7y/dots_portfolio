@@ -1,8 +1,5 @@
 import axios from "axios";
 const baseUrl = "https://dots-portfolio.onrender.com/api/";
-// const axiosInstance = axios.create({
-//   baseURL: ,
-// });
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_REACT_API_URL,

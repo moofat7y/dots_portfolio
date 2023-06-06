@@ -18,14 +18,14 @@ dbConnect();
 
 const corsOptions = {
   origin: [
-    "http://localhost:5173",
-    "http://localhost:5174",
-    "https://dots-portfolio-admin.vercel.app",
-    "https://dots-portfolio-moofat7y.vercel.app",
+    "http://dotsmarketinghub.com",
+    "http://admin.dotsmarketinghub.com",
+    "https://dotsmarketinghub.com",
+    "https://admin.dotsmarketinghub.com",
   ],
   credentials: true,
 };
-app.use(cors({ credentials: true }));
+app.use(cors(corsOptions));
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

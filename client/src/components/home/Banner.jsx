@@ -15,9 +15,9 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="container text-center">
+      <div className="container text-center pt-5 pt-md-0">
         <div className="offers d-flex justify-content-center gap-3 gap-xl-5 flex-wrap flex-lg-nowrap">
-          <div className="d-flex flex-column align-items-center justify-content-center">
+          <div className="d-flex flex-column align-items-center justify-content-start">
             <CiMedal className="text-danger display-4 mb-3" />
             <h3 className="fw-bolder mb-2 fs-4">Creative Designs</h3>
             <p className="fw-light text-break">
@@ -25,7 +25,7 @@ const Banner = () => {
             </p>
           </div>
 
-          <div className="d-flex flex-column align-items-center justify-content-center">
+          <div className="d-flex flex-column align-items-center justify-content-start">
             <CiEdit className="text-danger display-4 mb-3" />
             <h3 className="fw-bolder mb-2 fs-4">Strategic Plans</h3>
             <p className="fw-light text-break">
@@ -34,7 +34,7 @@ const Banner = () => {
             </p>
           </div>
 
-          <div className="d-flex flex-column align-items-center justify-content-center">
+          <div className="d-flex flex-column align-items-center justify-content-start">
             <CiMobile2 className="text-danger display-4 mb-3" />
             <h3 className="fw-bolder mb-2 fs-4">
               Web Development

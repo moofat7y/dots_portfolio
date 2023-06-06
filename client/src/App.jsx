@@ -19,6 +19,7 @@ import { getAllSocialImages } from "./store/features/social/socialSlice";
 import { getAllClientImages } from "./store/features/top-client/clientSlice";
 import WhatsApp from "./components/WhatsApp";
 import { getAllBrandImages } from "./store/features/brand/brandSlice";
+import NotFound from "./pages/NotFound";
 
 function App() {
   const dispatch = useDispatch();
@@ -42,6 +43,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
