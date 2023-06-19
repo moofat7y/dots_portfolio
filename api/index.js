@@ -22,6 +22,9 @@ const corsOptions = {
     "http://admin.dotsmarketinghub.com",
     "https://dotsmarketinghub.com",
     "https://admin.dotsmarketinghub.com",
+    "https://dotsmarketinghub-moofat7y.vercel.app",
+    "https://admin-dotsmarketinghub-moofat7y.vercel.app",
+    "http://localhost:5173",
   ],
   credentials: true,
 };
