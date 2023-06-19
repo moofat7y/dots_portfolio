@@ -20,7 +20,7 @@ const CardSec = () => {
               <div className="content">
                 <h3 className="fs-5 fw-semibold mb-4">Contact Phone Number</h3>
                 <a className="nav-link mb-2 fs-5" href="tel:0100 555 0942">
-                  PH: 0100 5550 942
+                  PH: 0100 555 0 942
                 </a>
                 <a className="nav-link fs-5" href="tel:050 23 96 859">
                   HM: 050 23 96 859
