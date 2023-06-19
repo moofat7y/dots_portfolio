@@ -128,8 +128,8 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="tel:0100 555 942" className="nav-link fs-7">
-                    Phone: 0100 555 942
+                  <a href="tel:0100 5550 942" className="nav-link fs-7">
+                    Phone: 0100 5550 942
                   </a>
                 </li>
                 <li className="nav-item">
