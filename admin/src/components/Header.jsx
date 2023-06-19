@@ -53,7 +53,7 @@ const Header = () => {
               {/* <NavLink to="/" className="nav-link">
                 Populer
               </NavLink> */}
-              <NavLink to="/logo" className="nav-link">
+              <NavLink to="/" className="nav-link">
                 Logo
               </NavLink>
               <NavLink to="/social" className="nav-link">

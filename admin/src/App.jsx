@@ -38,9 +38,8 @@ function App() {
             </ProtecteRoute>
           }
         >
-          <Route path="/" element={<Popular />} />
+          <Route path="/" element={<Logo />} />
           <Route path="/populer" element={<Popular />} />
-          <Route path="/logo" element={<Logo />} />
           <Route path="/social" element={<Social />} />
           <Route path="/top-clients" element={<TopClients />} />
           <Route path="/brand" element={<Brand />} />
