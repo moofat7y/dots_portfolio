@@ -184,7 +184,7 @@ button.fadeup {
 
 .top-arrow {
   position: fixed;
-  bottom: 88px;
+  bottom: 150px;
   right: 20px;
   cursor: pointer;
   z-index: 999;
@@ -638,10 +638,8 @@ footer {
   }
 }
 
-.whats-app {
+.fixed-icon {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
   cursor: pointer;
   z-index: 999;
   width: 50px;
@@ -651,10 +649,18 @@ footer {
   text-align: center;
   background-color: white;
   display: flex;
+  right: 20px;
   align-items: center;
   justify-content: center;
-  -webkit-animation: shadow-anim 2s linear infinite alternate;
-  animation: shadow-anim 2s linear infinite alternate;
+  &.instagram {
+    bottom: 88px;
+  }
+  &.whats-app {
+    bottom: 20px;
+
+    -webkit-animation: shadow-anim 2s linear infinite alternate;
+    animation: shadow-anim 2s linear infinite alternate;
+  }
 }
 
 @keyframes shadow-anim {

@@ -20,6 +20,7 @@ import { getAllSocialImages } from "./store/features/social/socialSlice";
 import { getAllClientImages } from "./store/features/top-client/clientSlice";
 import WhatsApp from "./components/WhatsApp";
 import { getAllBrandImages } from "./store/features/brand/brandSlice";
+import Instgram from "./components/Instgram";
 
 function App() {
   const dispatch = useDispatch();
@@ -37,6 +38,7 @@ function App() {
         <Header />
         <ScrollToTop />
         <WhatsApp />
+        <Instgram />
         <ArrowTop />
         <Routes>
           <Route path="/" element={<Home />} />
