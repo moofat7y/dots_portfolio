@@ -46,15 +46,6 @@ router.put(
 );
 
 router.put(
-  "/brand",
-  isAuth,
-  isAdmin,
-  uploadPhoto.array("images", 10),
-  brandImgResize,
-  uploadCtrl.uploadBrand
-);
-
-router.put(
   "/brand-design",
   isAuth,
   isAdmin,

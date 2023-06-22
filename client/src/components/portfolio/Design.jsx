@@ -28,8 +28,9 @@ const Design = () => {
           <div className="thumbnail-inner rounded-3">
             <LazyLoadImage
               effect="blur"
-              className=" rounded-3 w-100 h-100"
+              className="bg-white rounded-3 w-100 h-100"
               src={image.secure_url}
+              style={{ objectFit: "cover" }}
               alt=""
             />
           </div>

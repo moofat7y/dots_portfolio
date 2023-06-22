@@ -44,6 +44,7 @@ const BrandItem = ({ image }) => {
             effect="blur"
             className="rounded-3 w-100 h-100"
             src={image.secure_url}
+            style={{ objectFit: "cover" }}
             alt=""
           />
           <div className="d-flex gap-2 position-absolute  top-50 start-50 translate-middle">

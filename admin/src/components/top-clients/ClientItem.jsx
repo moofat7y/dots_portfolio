@@ -34,7 +34,7 @@ const ClientItem = ({ image }) => {
   };
   return (
     <div className="col-6 col-md-4 col-lg-3 p-0">
-      <div className="thumbnail p-2">
+      <div className="thumbnail p-4 p-sm-5">
         <div
           className={`thumbnail-inner d-flex justify-content-center position-relative rounded-3 ${
             isLoading ? "loading" : ""
@@ -42,8 +42,11 @@ const ClientItem = ({ image }) => {
         >
           <LazyLoadImage
             effect="blur"
+            width={"100%"}
+            height={"100%"}
             className="rounded-3 w-100 h-100"
             src={image.secure_url}
+            style={{ objectFit: "contain" }}
             alt=""
           />
           <div className="d-flex gap-2 position-absolute  top-50 start-50 translate-middle">

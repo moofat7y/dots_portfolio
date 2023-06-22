@@ -16,7 +16,6 @@ const CompanyRefresh = () => {
                 className="object-fit-cover w-100 d-block"
                 alt="about-1"
                 decoding="async"
-                loading="lazy"
                 sizes="(max-width: 543px) 100vw, 543px"
               />
             </div>

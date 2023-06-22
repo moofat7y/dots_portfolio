@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SectionMainHeader from "../SectionMainHeader";
 import { useSelector } from "react-redux";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const TopClients = () => {
   const { images, isLoading, count } = useSelector((state) => state.client);
   const clients_list = images?.map((image) => {
@@ -9,7 +9,12 @@ const TopClients = () => {
       <li key={image._id} className="col-6 col-sm-4 col-lg-3 col-xl-2">
         <a target="_blank" href={image.link ? image.link : "#"}>
           <div className="box p-4">
-            <img className="w-100 h-100" src={image.secure_url} alt="" />
+            <LazyLoadImage
+              effect="blur"
+              className="w-100 h-100"
+              src={image.secure_url}
+              alt=""
+            />
           </div>
         </a>
       </li>

@@ -22,8 +22,11 @@ const LogoItem = ({ image }) => {
         >
           <LazyLoadImage
             effect="blur"
-            className="rounded-3 ratio ratio-4x3"
+            width={"100%"}
+            height={"100%"}
+            className="rounded-3 w-100 h-100 ratio ratio-4x3"
             src={image.secure_url}
+            style={{ objectFit: "cover" }}
             alt=""
           />
           <div

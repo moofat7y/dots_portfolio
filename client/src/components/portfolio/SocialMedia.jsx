@@ -28,10 +28,11 @@ const SocialMedia = () => {
           <div className="thumbnail-inner rounded-3">
             <LazyLoadImage
               effect="blur"
-              className=" w-100 h-100 rounded-3"
+              className="bg-white w-100 h-100 rounded-3"
               src={image.secure_url}
               width="100%"
               height="100%"
+              style={{ objectFit: "cover" }}
               alt=""
             />
           </div>

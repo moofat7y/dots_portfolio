@@ -33,7 +33,8 @@ const populerImgResize = async (req, res, next) => {
     req.files.map(async (file) => {
       await sharp(file.path)
         .resize(390, 532, {
-          fit: "cover",
+          fit: sharp.fit.inside,
+          withoutEnlargement: true,
         })
         .toFormat("jpeg")
         .jpeg({ quality: 90 })
@@ -51,7 +52,8 @@ const logoImgResize = async (req, res, next) => {
     req.files.map(async (file) => {
       await sharp(file.path)
         .resize(768, 512, {
-          fit: "cover",
+          fit: sharp.fit.inside,
+          withoutEnlargement: true,
         })
         .toFormat("jpeg")
         .jpeg({ quality: 90 })
@@ -69,7 +71,8 @@ const socialMediaImgResize = async (req, res, next) => {
     req.files.map(async (file) => {
       await sharp(file.path)
         .resize(768, 512, {
-          fit: "cover",
+          fit: sharp.fit.inside,
+          withoutEnlargement: true,
         })
         .toFormat("jpeg")
         .jpeg({ quality: 90 })

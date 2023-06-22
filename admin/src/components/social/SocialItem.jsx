@@ -22,8 +22,11 @@ const SocialItem = ({ image }) => {
         >
           <LazyLoadImage
             effect="blur"
-            className="rounded-3 ratio ratio-4x3"
+            className="rounded-3 w-100 h-100 ratio ratio-4x3"
             src={image.secure_url}
+            width={"100%"}
+            height={"100%"}
+            style={{ objectFit: "cover" }}
             alt=""
           />
           <div
